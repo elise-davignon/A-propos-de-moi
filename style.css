@@ -1,3 +1,5 @@
+/* THÈME GRIS */
+/*
 :root
 {
 	--couleur-ap-foncee: #7f7f7f;
@@ -6,6 +8,21 @@
 	
 	--couleur-contenu-ap: #ffffff;
 	--couleur-contenu-txt: #000000;
+	--couleur-contenu-a: #0000ff;
+}
+*/
+
+/* THÈME SAUMON */
+
+:root
+{
+	--couleur-ap-foncee: #cf7a63;
+	--couleur-ap: #ffdbd1;
+	--couleur-ap-pale: #ffdbd1;
+	
+	--couleur-contenu-ap: #fffefe;
+	--couleur-contenu-txt: #661810;
+	--couleur-contenu-a: #017005;
 }
 
 body
@@ -221,6 +238,11 @@ nav a, nav a:visited, footer a, footer a:visited
 	color: var(--couleur-ap-foncee);
 	font-weight: bold;
 	text-decoration: none;
+}
+
+section a
+{
+	color: var(--couleur-contenu-a);
 }
 
 table.cv-table
