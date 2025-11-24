@@ -252,3 +252,16 @@ p.quote_attr
 	text-align:right;
 	margin-top:-10px;
 }
+
+footer .copyright-notice
+{
+	font-style:italic;
+	margin-top:10px;
+	text-align:center;
+	font-size:small;
+}
+
+summary
+{
+	cursor:pointer;
+}
