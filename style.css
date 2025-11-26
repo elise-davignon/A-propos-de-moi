@@ -18,7 +18,7 @@
 {
 	--couleur-ap-foncee: #cf7a63;
 	--couleur-ap: #ffdbd1;
-	--couleur-ap-pale: #ffdbd1;
+	--couleur-ap-pale: #fff2ef;
 	
 	--couleur-contenu-ap: #fffefe;
 	--couleur-contenu-txt: #661810;
@@ -145,6 +145,8 @@ footer
 	border: 1px var(--couleur-ap-foncee) solid;
 	border-radius:10px;
 	background: var(--couleur-ap-pale);
+	
+	overflow: auto;
 }
 
 aside.vignette-document
@@ -233,7 +235,56 @@ table.hmenu td.hmenuend
 	border-right: none;
 }
 
-nav a, nav a:visited, footer a, footer a:visited
+table.head
+{
+	width: 100%;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	margin-left: -40px;
+	margin-right: -40px;
+	border-collapse: collapse;
+	
+	color: var(--couleur-ap-foncee);
+}
+
+table.head .overtitle
+{
+	margin-top:6px;
+}
+
+table.head h1
+{
+	margin-top:0px;
+}
+
+table.head td
+{
+	text-align: left;
+	vertical-align: center;
+	border-collapse: collapse;
+	border: none;
+	
+	padding: 10px;
+	padding-left: 30px;
+}
+
+table.head td.rhead
+{
+	margin-left: 0px;
+	padding: 10px;
+	width: 35px;
+	
+	text-align: right;
+	vertical-align: center;
+	border-collapse: collapse;
+	border : 1px solid var(--couleur-ap-foncee);
+	
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+}
+
+header a, header a:visited, nav a, nav a:visited, footer a, footer a:visited
 {
 	color: var(--couleur-ap-foncee);
 	font-weight: bold;
